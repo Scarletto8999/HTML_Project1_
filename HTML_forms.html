@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+    <h2><ins> Application :</ins></h2>
+   <form >
+    
+    Enter your name:
+    <input type="text" placeholder="Username" maxlength="15" required>
+    <br><br>
+    Enter your password:
+    <input type="password" placeholder="Password" maxlength="8" required>
+    <br><br>
+    Enter your age:
+    <input type="number" placeholder="Age" required>
+    <br><br>
+    Enter your date of birth (Optional):
+    <input type="date">
+    <br><br>
+    Enter your email adress:
+    <input type="email" placeholder="Email" required>
+    <br><br>
+    Enter your phone number (Optional):
+    <input type="tel" placeholder="Phone Number">
+    <br><br>
+
+    <h4>Your Gender:</h4>
+    <label for="female"></label>
+    <input type="radio" id="female" name="title" value="female">Female 
+    <label for="male"></label>
+    <input type="radio" id="male" name="title" value="male">Male
+    <label for="non"></label>
+    <input type="radio" id="non" name="title" value="non">Doesn't prefer to say
+    <br><br>
+
+    <h4>Choose the Electives courses you want to take this semester:</h4>
+    <label for="math">
+        <input type="checkbox" value="math" name="subject" id="1"> Sports for All
+    </label>
+    <br>
+    <label for="phys">
+        <input type="checkbox" value="phys" name="subject" id="2"> Psychology
+    </label>
+    <br>
+    <label for="chem">
+        <input type="checkbox" value="chem" name="subject" id="3"> Leadership Skills and Communications 
+    </label>
+    <br>
+    <label for="swe">
+        <input type="checkbox" value="swe" name="subject" id="4"> Art and History
+    </label>
+    <br>
+    <br>
+
+    <h4>Select your department :</h4>
+    <select name="Department">
+        <option value="SW">Software Engineering</option>
+        <option value="CE">Computer Engineering</option>
+        <option value="EE">Electric Engineering</option>
+        <option value="IE">Industral Engineering</option>
+
+    </select>
+    <br>
+    <br>
+
+    <h4> Are you satisfied with your education ?</h4>
+    <label for="1">  
+        <input type="radio" value="class 1" name="class" id="1"> Yes    
+    </label>
+    <br>
+        <label for="2">
+            <input type="radio" value="class 2" name="class" id="2"> No
+    </label>
+    
+    <h4>For any feedback:</h4>
+    <textarea name="feedback" id="1" placeholder="For additional suggestions" cols="20" rows="5"> 
+
+    </textarea>
+    <br>
+    <input type="submit" value="submit" title="Submit">
+    <button disabled title="This won't work whatever you do">Reset</button>
+   </form> 
+   <br><br>
+    <footer style="background-color:rgb(231, 236, 240)">
+    <hr>
+    Author : Haneen Alobaidi
+    <br>
+    &copy; Copy Rights Reserved
+    <br>
+     <small><a href="haneen@fakegmail.com" target="_blank" title="This is a fake email">haneen@fakegmail.com</a></small>
+</footer>
+</body>
+</html>
